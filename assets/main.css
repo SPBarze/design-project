@@ -1,0 +1,91 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/* Colors */
+/* Black: 0 0 0 0  */
+/* Dark Grey:44 43 43 69% */
+/* Light grey: 0 0 0 31% */
+/* Yellow: 255 218 8 100% */
+/* Middle yellow: 255 218 8 70%  */
+/*Last yellow: 255 218 8 35%  */
+/* White: 255 255 255 100% */
+/* middle white: 255 255 255 63% */
+/* last white: 255 255 255 45% */
+  /* background: rgba(255, 0, 0, 0.5); */
+/* Basic stylings */
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  background: lightgrey;
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  min-height: 80vh;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.half {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100%;
+  grid-gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+ font-size: 30px;
+ margin: 5vh;
+}
+
+h2 {
+  text-align: center;
+  font-size: 26px;
+  margin: 5vh;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  border: solid 40px #F6EBA7;
+  border-radius: 10px;
+  max-width: 80%;
+  margin: 35px;'i9i9'
+  height: auto;
+  justify-items: space-between;
+}
+
+/* Questions:
+
+Accidentally removed the main css and index html files from here but
+they are still on my computer and wont let me put them back in?
+
+- How do i line up all the images to make them the same?
+
+-How to put in the star ratings? */
